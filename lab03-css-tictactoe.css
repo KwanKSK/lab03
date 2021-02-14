@@ -1,0 +1,57 @@
+body{
+  background-color: black;
+  font-family: cursive;
+  color: whitesmoke;
+}
+
+.container {
+  width: 332px;
+  height: 332px;
+  margin: auto;
+  margin-top: 100px;
+}
+.container h1 {
+  text-align: center;
+  font-size: 50px;
+  background-color: darkgrey;
+}
+.container p {
+  text-align: center;
+  font-size: 25px;
+  color: aquamarine;
+}
+  
+.row {
+  height: 100px;
+}
+
+.col {
+  height: 100px;
+  width: 100px;
+  float: left;
+  font-size: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+.col:hover {
+  background-color: gainsboro; 
+}
+  
+.border-b {
+  border-bottom: 8px solid whitesmoke;
+}
+.border-t {
+  border-top: 8px solid whitesmoke;
+}
+.border-l {
+  border-left: 8px solid whitesmoke;
+}  
+.border-r {
+  border-right: 8px solid whitesmoke;
+}
+  
+.winner {
+  background: #414141;
+  color: lightcoral;
+}
+  
